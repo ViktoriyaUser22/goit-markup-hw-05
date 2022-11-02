@@ -48,7 +48,13 @@
         <section class="hero">
             
             <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button class="request" type="button">Request our service</button>
+            <button class="request" type="button" data-modal-open>Request our service</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <p></p>
+                <button data-modal-close>Close</button>        
+                </div>
+            </div>
             
         </section>
         <section class="advantages">
@@ -105,11 +111,14 @@
         <section class="our-work">
             <h2 class="work-title">What we do</h2> 
         <div class="container">
-            <ul class="work">
-                <li class="item"><img src="./images/img1.jpg.jpg" alt="Keybord" width="370" height="294"></li>
-                <li class="item"><img src="./images/img2.jpg.jpg" alt="iPhone" width="370" height="294"></li>
-                <li class="item"><img src="./images/img3.jpg.jpg" alt="Tablet" width="370" height="294"></li>
-            </ul>
+          <ul class="work">
+            <li class="item"><div class="thumb"><img src="./images/img1.jpg.jpg" 
+            alt="Keybord" width="370" height="294"><div class="overley"><p>DESKTOP APPS</p></div></div></li>
+            <li class="item"><div class="thumb"><img src="./images/img2.jpg.jpg" 
+            alt="iPhone" width="370" height="294"><div class="overley"><p>MOBILE APPS</p></div></div></li>
+            <li class="item"><div class="thumb"><img src="./images/img3.jpg.jpg" 
+            alt="Tablet" width="370" height="294"><div class="overley"><p>DESIGN SOLUTIONS</p></div></div></li>
+          </ul>
         </div>
         </section>
         <section class="team">
